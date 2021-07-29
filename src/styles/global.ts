@@ -24,7 +24,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(--royal-blue);
     -webkit-font-smoothing: antialiased;
   }
 

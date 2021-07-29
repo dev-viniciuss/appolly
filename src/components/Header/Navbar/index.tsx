@@ -13,11 +13,11 @@ export function Navbar() {
       </Link>
 
       <nav>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/features">Features</Link>
-        <Link href="/screenshot">Screenshot</Link>
-        <Link href="/blog">Blog</Link>
+        <Link href="/"><a>Home</a></Link>
+        <Link href="/about"><a>About</a></Link>
+        <Link href="/features"><a>Features</a></Link>
+        <Link href="/screenshot"><a>Screenshot</a></Link>
+        <Link href="/blog"><a>Blog</a></Link>
       </nav>
 
       <button>Download</button>

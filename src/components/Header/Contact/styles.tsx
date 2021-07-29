@@ -1,8 +1,9 @@
 import styled from "styled-components"
 
 export const Contact = styled.div`
-  margin: 0 auto;
-  padding: 1rem 2rem;
+  height: 3rem;
+  padding: 0 2rem;
+  background: var(--royal-blue);
   color: var(--white);
 
   display: flex;
