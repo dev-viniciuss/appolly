@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Contact = styled.div`
   height: 3rem;
-  padding: 0 2rem;
+  padding: 0rem 2rem;
   background: var(--royal-blue);
   color: var(--white);
 
