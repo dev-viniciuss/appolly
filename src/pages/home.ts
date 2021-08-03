@@ -84,3 +84,52 @@ export const CardMain = styled.div`
     }
   }
 `
+
+export const AboutContainer = styled.div`
+  width: 100%;
+  padding: 5rem 2rem;
+
+  background: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    max-width: 720px;
+    gap: 2rem;
+
+    h1 {
+      color: var(--black);
+    }
+
+    p {
+      color: var(--gray);
+      line-height: 1.5rem;
+    }
+  }
+
+  .opinionContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 5rem 0;
+
+    .cardContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
+`

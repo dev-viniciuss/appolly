@@ -1,8 +1,10 @@
 import Image from 'next/image'
 
 import { Header } from '../components/Header'
+import { OpinionCard } from '../components/OpinionCard'
 
 import phoneImg from '../../public/images/phone.svg'
+import phoneStaticImg from '../../public/images/phone-static.svg'
 
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
 
@@ -38,7 +40,21 @@ export default function Home() {
 
           <Image src={phoneImg}/>
         </Styles.Section>
-
+        
+        <Styles.AboutContainer>
+          <div className="titleContainer">
+            <h1>ABOUT OUR APP</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
+          </div>
+          <div className="opinionContainer">
+            <Image src={phoneStaticImg}/>
+            <div className="cardContainer">
+              <OpinionCard />
+              <OpinionCard />
+              <OpinionCard />
+            </div>
+          </div>
+        </Styles.AboutContainer>
       </Styles.Main>
     </>    
   )
